@@ -1,0 +1,185 @@
+body{
+  background-color:whitesmoke;
+ 
+}
+.text{
+    text-align: left;
+}
+
+
+
+  
+
+  
+  .avatar {
+    
+   border-radius: 50%;
+   width: 200px;
+   height: 180px;
+   
+  }
+.button{
+  background-color:#bd5d38;
+  
+}
+.table{
+  font-size: small;
+}
+.name{
+  color: bisque;
+}
+.icon{
+  text-align: center;
+}
+
+.box{
+  background-color: white;
+  width: 30px;
+}
+
+
+.meter{
+  font-size: x-large;
+  text-align: left;
+}
+
+.home_banner_area {
+  position: relative;
+  z-index: 1;
+  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  margin-bottom: 200px; 
+  
+
+}
+
+.home_banner_area .box_1620 {
+  min-height: 550px;
+  border-radius: 12px;
+  position: relative;
+  bottom: -50px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+.home_banner_area .banner_inner {
+  position: relative;
+  width: 55%;
+  min-height: 400px;
+  }
+
+
+ 
+
+  
+
+
+.center{
+  text-align: center;
+}
+
+
+
+/*-------------------------------------- responsiveness-------------------------------------  */
+@media only screen and (max-width: 1200px){
+  .img {
+      max-width: 450px;
+      height: auto;
+      
+  }
+  } 
+
+  @media (max-width:991px){
+    .img {
+        max-width: 350px;
+        height: 400px;
+
+        
+    }
+    .email{
+font-size: small;
+    }
+  }
+
+  
+  @media  (max-width: 986px){
+    .img {
+        max-width: 325px;
+        height: 400px;
+
+        
+    }
+    .email{
+      font-size: small;
+    }
+    }
+
+    @media only screen and (max-width: 800px){
+      .img {
+          max-width: 350px;
+          height: 450px;
+          
+      }
+      .p{
+        font-size: 10px;
+      }
+      }
+      @media only screen and (max-width: 767px){
+        .img {
+            max-width: 350px;
+            height: auto;
+            margin-left: 15%;
+            
+        }
+      }
+
+
+  @media only screen and (max-width: 640px){
+    .img {
+        max-width: 350px;
+        height: auto;
+        margin-left: 15%;
+    }
+    }
+
+
+
+  @media only screen and (max-width: 500px){
+  .img {
+      max-width: 250px;
+      height: auto;
+      margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 400px){
+  .img {
+      max-width: 250px;
+      height: auto;
+      margin-left: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 300px){
+  .img {
+      max-width: 190px;
+      height: auto;
+      margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 250px){
+  .img {
+      max-width: 190px;
+      height: auto;
+      margin-left: 0px;
+  }
+}
+.clearfix{
+  margin-top: 30px;
+}
+
+/*-------------------------------------- responsiveness-------------------------------------  */
+
+
